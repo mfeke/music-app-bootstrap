@@ -6,71 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
       crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+      
 </head>
-<body style="background-color: black;">
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <img src="IMAGE/vol image.webp" alt="" style="height: 50px; margin-right:10px;">
-          <a class="navbar-brand" href="#">VOL</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#album">Album</a></li>
-                  <li><a class="dropdown-item" href="#joisah">Joisah-de-disciple</a></li>
-                  <li><a class="dropdown-item" href="#single">Single</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+<body>
+    <nav class="navbar">
+    <div class="logo-1">
+      <div  style="display:flex; ">
+        <img src="image/vol image.webp" alt="" style="height: 50px; margin-right: 10px; ">
+        <div>
+          <h1>Dikela</h1>
         </div>
-      </nav>
-
+      </div>
+    </div>
+    <ul class="navbar-nav d-flex"id="navbarNavAltMarkup">
+      <li><a class="nav-link" href="#home-page">Home</a></li>
+      <li><a  class="nav-link" href="#about-page">About</a></li>
+      <li><a class="nav-link" href="#skills-page">Skills</a></li>
+      <li><a class="nav-link" href="#contact-page">Contact</a></li>
+    
+    </ul>
+    </nav>
     <!--card-->
-    <section class="container" style="background-color: black ; color:white;">
+    <section class="container" >
         <h1 id="album"> Album</h1>
         <!--row 1-->
         <section class="row">
-            <div class="col">
-                <div class="card" style="width: 250px; background-color: black; color: white;">
-                  <div style="box-shadow:8px 5px  gray;">
+            <div class="col" >
+                <div class="card" style="width: 250px; border: none; ">
+                  <div style="box-shadow:8px 5px   gray;">
                     <a href="https://music.youtube.com/playlist?list=OLAK5uy_mBaP5PMgg4TLEkkv4dbVGpZ1gWhsK6CFo" target="_blank">
                       <img src="IMAGE/Mr-JazziQ-All-You-Need-Is-Piano-Tracklist.jpg" class="card-img-top" alt="...">
                     </a>
                   </div>
-                    <div class="card-body">
+                    <div class="card-body" >
                       <h5 class="card-title">All PianoYou Need Is</h5>
-                      <p class="card-text" style="color: rgb(128, 128, 128);">Album-2022 </p>
+                      <p class="card-text" >Album-2022 </p>
                     </div>
                   </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 250px; background-color: black; color: white;">
+                <div class="card" style="width: 250px; border: none;">
                   <div style="box-shadow: 8px 5px gray;">
                     <a href="https://music.youtube.com/playlist?list=OLAK5uy_nXVHJcQZXIAZ6MCqvFxISGkHJH_cA7Y_o" target="_blank">
                       <img src="IMAGE/EP-Blxckie-–-4Luv-Cover-Artwork-Tracklist-.jpeg" class="card-img-top" alt="...">
@@ -79,12 +58,12 @@
                   </div>
                       <div class="card-body">
                       <h5 class="card-title"> 4LUV</h5>
-                      <p class="card-text" style="color: rgb(128, 128, 128) ;">Album-2022</p>
+                      <p class="card-text" >Album-2022</p>
                     </div>
                   </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 250px; background-color: black; color: white;">
+                <div class="card" style="width: 250px; border: none;">
                   <div style="box-shadow: 8px 5px gray;">
                     <a href="https://music.youtube.com/playlist?list=OLAK5uy_nwDFwhdkcT5iUFGvm4Q5HURMgMxDCJbhg" target="_blank">
                       <img src="IMAGE/Mshayi-Mr-Thela-Make-Cape-Town-Great-Again-2.0.jpg" class="card-img-top" alt="...">
@@ -94,7 +73,7 @@
                   
                     <div class="card-body">
                       <h5 class="card-title">MAKE CAPE TOWN GREATE AGAIN</h5>
-                      <p class="card-text" style="color: rgb(128, 128, 128);">Album-2021</p>
+                      <p class="card-text" >Album-2021</p>
                     </div>
                   </div>
             </div>
@@ -102,7 +81,7 @@
         <!--row 2-->
         <section class="row">
             <div class="col">
-                <div class="card" style="width: 250px; background-color: black; color: white;">
+                <div class="card" style="width: 250px; border: none; ">
                   <div style="box-shadow: 8px 5px gray;">
                     <a href="https://music.youtube.com/playlist?list=OLAK5uy_kryPP0CUamHogRB80xd-H03o0Ou-RpIWM" target="_blank">
                       <img src="IMAGE/R.jpg" class="card-img-top" alt="...">
@@ -110,12 +89,12 @@
                   </div>
                     <div class="card-body">
                       <h5 class="card-title">Young Stunna</h5>
-                      <p class="card-text" style="color: rgb(128, 128, 128);">Album-2021</p>
+                      <p class="card-text">Album-2021</p>
                     </div>
                   </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 250px; background-color: black; color: white;">
+                <div class="card" style="width: 250px; border: none; ">
                   <div style="box-shadow: 8px 5px gray ;">
                     <a href="https://music.youtube.com/playlist?list=OLAK5uy_mwBkuyHZe0nUpHeosTMcDb9ES7F75ZiZI" target="_blank">
                       <img src="IMAGE/sjava.jpg" class="card-img-top" alt="...">
@@ -124,12 +103,12 @@
                   </div>
                     <div class="card-body">
                       <h5 class="card-title">Umqhele</h5>
-                      <p class="card-text" style="color: rgb(128, 128, 128) ;">Album-2018</p>
+                      <p class="card-text" >Album-2018</p>
                     </div>
                   </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 250px; background-color: black; color: white;">
+                <div class="card" style="width: 250px; border: none; ">
                   <div style="box-shadow: 8px 5px gray;">
                     <a href="https://music.youtube.com/playlist?list=OLAK5uy_n3s799B1HbIsSp6i6POcGMQBs3Gv5mvjQ" target="_blank">
                       <img src="IMAGE/uBizza-Wethu-My-Story-Album-300x300.jpg" class="card-img-top" alt="...">
@@ -138,7 +117,7 @@
                     
                     <div class="card-body">
                       <h5 class="card-title">My Story</h5>
-                      <p class="card-text" style="color: rgb(128, 128, 128);">Album-2021</p>
+                      <p class="card-text" >Album-2021</p>
                     </div>
                   </div>
             </div>
@@ -155,7 +134,7 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                         <div class="card-wrapper" style="display:flex ; margin-top: 20px;">
-                            <div class="card" style="width:250px; margin-right: 180px; background-color: black; color: white;">
+                            <div class="card" style="width:250px; margin-right: 180px; border: none;" >
                               <div style="box-shadow: 8px 5px gray ;">
                                 <a href="https://music.youtube.com/playlist?list=OLAK5uy_k86FNAVDIWzRafCdq9kNpNdBsK9PYztpY" target="_blank">
                                   <img src="IMAGE/J-DE BOOHLE.jpg" class="card-img-top" alt="...">
@@ -166,7 +145,7 @@
                                   <p class="card-text" style="color: gray;">Album-2020</p>
                                 </div>
                             </div>
-                            <div class="card" style="width:250px; margin-right: 180px; background-color: black;color: white;">
+                            <div class="card" style="width:250px; margin-right: 180px; border: none;">
                               <div style="box-shadow: 8px 5px gray;">
                                 <a href="https://music.youtube.com/playlist?list=OLAK5uy_k86FNAVDIWzRafCdq9kNpNdBsK9PYztpY" target="_blank">
                                   <img src="IMAGE/OF 2.0.jpg" class="card-img-top" alt="...">
@@ -174,10 +153,10 @@
                               </div>
                                 <div class="card-body">
                                     <h5> S-O-P Vol-2</h5>
-                                  <p class="card-text" style="color: gray;">Album-2021</p>
+                                  <p class="card-text" ">Album-2021</p>
                                 </div>
                             </div>
-                            <div class="card" style="width:250px;background-color: black; color: white; ">
+                            <div class="card" style="width:250px;border: none;">
                               <div style="box-shadow:8px 5px gray ;">
                                 <a href="https://music.youtube.com/playlist?list=OLAK5uy_nBRO1VtiCg7a7LTyPirMp21cldoF8SCNA" target="_blank">
                                   <img src="IMAGE/SPILTS OF.jpg" class="card-img-top" alt="...">
@@ -185,15 +164,14 @@
                               </div>  
                                 <div class="card-body">
                                     <h5> S-O-M Vol-1</h5>
-                                  <p class="card-text" style="color: gray;">Album-2020</p>
+                                  <p class="card-text" >Album-2020</p>
                                 </div>
                             </div>
-                        </div>
-                        
+                        </div>     
                   </div>
                 <div class="carousel-item">
                   <div class="card-wrapper" style="display: flex ; margin-top: 20px;">
-                            <div class="card" style="width:250px; margin-right: 180px; background-color: black; color: white;">
+                            <div class="card" style="width:250px; margin-right: 180px; border: none;">
                               <div style="box-shadow: 8px 5px gray;">
                                 <a href="https://music.youtube.com/playlist?list=OLAK5uy_lbcUoKy9ABGU0BWRoeHtpdpTa_wA9Q1wI" target="_blank">
                                   <img src="IMAGE/Josiah-de-Disciple-LennonPercs-ThrowBack-Album.jpg" class="card-img-top" alt="...">
@@ -201,10 +179,10 @@
                               </div>
                                 <div class="card-body">
                                     <h5> ThrowBack</h5>
-                                  <p class="card-text" style="color: gray;">Album-2020</p>
+                                  <p class="card-text" >Album-2020</p>
                                 </div>
                             </div>
-                            <div class="card" style="width:250px; margin-right: 180px; background-color: black; color: white;">
+                            <div class="card" style="width:250px; margin-right: 180px; border: none;">
                               <div style=" box-shadow: 8px 5px gray;">
                                 <a href="https://music.youtube.com/playlist?list=OLAK5uy_nxSGA9eb8_TegPAm_SGBuv4tRi095c1ZI" target="_blank">
                                   <img src="IMAGE/jazzi dis.jpg" class="card-img-top" alt="...">
@@ -215,19 +193,20 @@
                                   <p class="card-text"style="color: gray;">Album-2019</p>
                                 </div>
                             </div>
-                            <div class="card" style="width:250px; background-color: black; color: white;">
+                            <div class="card" style="width:250px; border: none;">
                               <div style="box-shadow: 8px 5px gray;">
                                 <a href="https://music.youtube.com/playlist?list=OLAK5uy_mIZqbgeEjE38TMcIG5xSvwKh6wwqryTl4">
                                   <img src="IMAGE/tales.webp" class="card-img-top" alt="...">
                                 </a>
                               </div>
                             <div class="card-body">
-                                <h5> Tales</h5>
-                              <p class="card-text" style="color: gray;">Single-2021</p>
+                                <h5 > Tales</h5>
+                              <p class="card-text" >Single-2021</p>
                             </div>
                         
                             </div>
                   </div>
+                </div>
         </section>
 
 
@@ -235,7 +214,7 @@
         <!--row 1-->
         <section class="row">
             <div class="col">
-                <div class="card" style="width: 250px; background-color: black; color: white;">
+                <div class="card" style="width: 250px; border: none;">
                   <div style="box-shadow:8px 5px  gray;">
                     <a href="https://music.youtube.com/watch?v=az6m9IE8h4o" target="_blank">
                       <img src="IMAGE/drake.jpg" class="card-img-top" alt="...">
@@ -243,12 +222,12 @@
                   </div>
                     <div class="card-body">
                       <h5 class="card-title">In My Feeling</h5>
-                      <p class="card-text" style="color: rgb(128, 128, 128);"> Single-2022 </p>
+                      <p class="card-text"> Single-2022 </p>
                     </div>
                   </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 250px; background-color: black; color: white;">
+                <div class="card" style="width: 250px; border: none;">
                   <div style="box-shadow: 8px 5px gray;">
                     <a href="https://music.youtube.com/watch?v=ZYC433X_SKQ&list=OLAK5uy_ll4qvACL5RfgN--sw35bwVMZUrfV9bf_Y" target="_blank">
                       <img src="IMAGE/khuzani.jpg" class="card-img-top" alt="...">
@@ -257,22 +236,20 @@
                   </div>
                       <div class="card-body">
                       <h5 class="card-title"> Ijele</h5>
-                      <p class="card-text" style="color: rgb(128, 128, 128) ;">Single-2020</p>
+                      <p class="card-text" >Single-2020</p>
                     </div>
                   </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 250px; background-color: black; color: white;">
+                <div class="card" style="width: 250px; border: none;">
                   <div style="box-shadow: 8px 5px gray;">
                     <a href="https://music.youtube.com/watch?v=oCJdeOau8YE" target="_blank">
                       <img src="IMAGE/touchline.jpg" class="card-img-top" alt="...">
-                    </a>
-                    
+                    </a> 
                   </div>
-                  
                     <div class="card-body">
                       <h5 class="card-title">Free Mode</h5>
-                      <p class="card-text" style="color: rgb(128, 128, 128);">Single-2021</p>
+                      <p class="card-text" >Single-2021</p>
                     </div>
                   </div>
             </div>
@@ -286,7 +263,7 @@
                 <div class="carousel-inner">
                 <div class="carousel-item active">
                         <div class="card-wrapper" style="display:flex ;">
-                            <div class="card" style="width:250px; margin-right: 180px; background-color: black; color: white;">
+                            <div class="card" style="width:250px; margin-right: 180px; border: none;">
                               <div style="box-shadow: 8px 5px gray ;">
                                 <a href="https://music.youtube.com/playlist?list=OLAK5uy_kook3SeNda2WtW-lRCDyRXHyXwB6dEP8o" target="_blank">
                                   <img src="IMAGE/rhass.jpg" class="card-img-top" alt="...">
@@ -294,10 +271,10 @@
                               </div>
                                 <div class="card-body">
                                     <h5> 2 new beginingsn</h5>
-                                  <p class="card-text" style="color: gray;">EP-2021</p>
+                                  <p class="card-text" >EP-2021</p>
                                 </div>
                             </div>
-                            <div class="card" style="width:250px; margin-right: 180px; background-color: black;color: white;">
+                            <div class="card" style="width:250px; margin-right: 180px; border: none;">
                               <div style="box-shadow: 8px 5px gray;">
                                 <a href="https://music.youtube.com/watch?v=qHNcZ-nCOJo" target="_blank">
                                   <img src="IMAGE/given on.jpg" class="card-img-top" alt="...">
@@ -305,10 +282,10 @@
                               </div>
                                 <div class="card-body">
                                     <h5> Chicago freestyle</h5>
-                                  <p class="card-text" style="color: gray;">single-2021</p>
+                                  <p class="card-text" >single-2021</p>
                                 </div>
                             </div>
-                            <div class="card" style="width:250px;background-color: black; color: white; ">
+                            <div class="card" style="width:250px; border: none;">
                               <div style="box-shadow:8px 5px gray ;">
                                 <a href="https://music.youtube.com/playlist?list=OLAK5uy_nBRO1VtiCg7a7LTyPirMp21cldoF8SCNA" target="_blank">
                                   <img src="IMAGE/SPILTS OF.jpg" class="card-img-top" alt="...">
@@ -316,7 +293,7 @@
                               </div>  
                                 <div class="card-body">
                                     <h5> S-O-M Vol-1</h5>
-                                  <p class="card-text" style="color: gray;">Album-2020</p>
+                                  <p class="card-text" >Album-2020</p>
                                 </div>
                             </div>
                         </div>
@@ -324,7 +301,7 @@
                 </div>
                 <div class="carousel-item">
                 <div class="card-wrapper" style="display: flex ;">
-                            <div class="card" style="width:250px; margin-right: 180px; background-color: black; color: white;">
+                            <div class="card" style="width:250px; margin-right: 180px; border: none;">
                               <div style="box-shadow: 8px 5px gray;">
                                 <a href="https://music.youtube.com/watch?v=-bIGv0p0kmU" target="_blank">
                                   <img src="IMAGE/big zulu.jpg" class="card-img-top" alt="...">
@@ -335,7 +312,7 @@
                                   <p class="card-text" style="color: gray;">Single-2022</p>
                                 </div>
                             </div>
-                            <div class="card" style="width:250px; margin-right: 180px; background-color: black; color: white;">
+                            <div class="card" style="width:250px; margin-right: 180px; border: none;">
                               <div style=" box-shadow: 8px 5px gray;">
                                 <a href="https://music.youtube.com/watch?v=1RTS7tSpuIg" target="_blank">
                                   <img src="IMAGE/mr thela.jpg" class="card-img-top" alt="...">
@@ -343,10 +320,10 @@
                               </div>
                                 <div class="card-body">
                                     <h5>Theletronics</h5>
-                                  <p class="card-text"style="color: gray;">MIXTAPE-2019</p>
+                                  <p class="card-text">MIXTAPE-2019</p>
                                 </div>
                             </div>
-                            <div class="card" style="width:250px; background-color: black; color: white;">
+                            <div class="card" style="width:250px; border: none;">
                               <div style="box-shadow: 8px 5px gray;">
                                 <a href="https://music.youtube.com/watch?v=1Y9pE39QQRw">
                                   <img src="IMAGE/killer kau.jpg" class="card-img-top" alt="...">
@@ -354,7 +331,7 @@
                               </div>
                             <div class="card-body">
                                 <h5> Nyakaza</h5>
-                              <p class="card-text" style="color: gray;">Single-2021</p>
+                              <p class="card-text" >Single-2021</p>
                             </div>
                         
                             </div>
@@ -368,12 +345,12 @@
         <section>
           <div class="container">
             <!--row 2-->
-            <h1 style="color: white ;">Mr Jazzi Que</h1>
+            <h1 >Mr Jazzi Que</h1>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                  <div class="card-wrapper "style="display:flex;  ;">
-                  <div class="card" style="width: 250px; margin-left: 0; padding-left: 0; margin-right: 190px; background-color: black;color: white;">
+                  <div class="card" style="width: 250px; margin-left: 0; padding-left: 0; margin-right: 190px; border: none;">
                     <a href="https://music.youtube.com/playlist?list=OLAK5uy_mBaP5PMgg4TLEkkv4dbVGpZ1gWhsK6CFo" target="_blank">
                       <img src="image/Mr-JazziQ-All-You-Need-Is-Piano-Tracklist.jpg" class="card-img-top" alt="...">
                     </a>
@@ -384,7 +361,7 @@
                     </div>
                   </div>
     
-                  <div class="card" style="width: 250px; margin-right: 190px; background-color: black; color: white;">
+                  <div class="card" style="width: 250px; margin-right: 190px; border: none;">
                     <a href="https://music.youtube.com/watch?v=tdbfBbqk1nc" target="_blank">
                       <img src="image/Mr-JazziQ-Woza-Artwork.jpg" class="card-img-top" alt="...">
                     </a>
@@ -394,7 +371,7 @@
                     </div>
                   </div>
     
-                  <div class="card" style="width: 250px; background-color: black; color: white;">
+                  <div class="card" style="width: 250px; border: none;">
                     <a href="https://music.youtube.com/playlist?list=OLAK5uy_lyhQAhdliOCBcWYN51Nm-5b7jkAwdxQq4" target="_blank">
                        <img src="image/OIP.jpg" class="card-img-top" alt="...">
                     </a>
@@ -409,7 +386,7 @@
                 </div>
                 <div class="carousel-item">
                   <div class="card-wrapper " style="display: flex; ">
-                    <div class="card" style="width: 250px; margin-right: 200px; background-color: black; color: white;">
+                    <div class="card" style="width: 250px; margin-right: 200px; border: none;">
                       <a href="https://music.youtube.com/watch?v=Fd8XTd9KLwo" target="_blank"><img src="image/gupta.jpg" class="card-img-top" alt="..."></a>
                       <div class="card-body">
                         <h5 class="card-title">GUPTA (FT Mellow &...)</h5>
@@ -417,7 +394,7 @@
                       </div>
                     </div>
     
-                    <div class="card" style="width: 250px; margin-right: 180px; background-color: black; color: white;">
+                    <div class="card" style="width: 250px; margin-right: 180px; border: none;">
                       <a href="https://music.youtube.com/playlist?list=OLAK5uy_nSKRmbfIl98sNhaCLdVwgzOTv-gPSewcI" target="_blank">
                         <img src="image/party with...webp" class="card-img-top" alt="...">
                       </a>
@@ -427,7 +404,7 @@
                       </div>
                     </div>
     
-                    <div class="card" style="width: 250px; background-color: black; color: white;">
+                    <div class="card" style="width: 250px; border: none;">
                       <a href="https://music.youtube.com/playlist?list=OLAK5uy_l7SlAdXZsbK1UWzxDqsjQ6rpSundGOCbs" target="_blank">
                         <img src="image/mr jazzi 0303.jpg" class="card-img-top" alt="...">
                       </a>
@@ -448,10 +425,10 @@
           </div>
           <div class="container">
             <!--row 3-->
-            <h1 style="color:white; margin-top: 50px;">New releases</h1>
+            <h1 style=" margin-top: 50px;">New releases</h1>
             <div class="row" style="margin-top: 12px ;">
               <div class="col">
-                 <div class="card" style="width: 250px; background-color: black; color: white;">
+                 <div class="card" style="width: 250px; border: none;">
                      <a href="https://music.youtube.com/playlist?list=OLAK5uy_mXgS2NqW9ch_744N9WKssJ3vvs2TGDb3U" target="_blank"><img src="image/daliwonga.webp" class="card-img-top" alt="img"></a>
                      <div class="card-body">
                        <h5 class="card-title"><strong>Uyang'Testa</strong></h5>
@@ -461,7 +438,7 @@
                    </div>
               </div>
               <div class="col">
-                 <div class="card" style="width: 250px;background-color: black; color: white;">
+                 <div class="card" style="width: 250px; border: none;">
                   <a href="https://music.youtube.com/playlist?list=OLAK5uy_n6YQhvTBgKWZpoQOJuMid3Njf7PZuM6t4" target="_blank"> 
                      <img src="image/boohle.jpg" class="card-img-top" alt="img">
                   </a>
@@ -472,7 +449,7 @@
                    </div>
               </div>
               <div class="col">
-                 <div class="card" style="width: 250px; background-color: black; color: white;">
+                 <div class="card" style="width: 250px; border: none;">
                   <a href="https://music.youtube.com/playlist?list=OLAK5uy_mwBkuyHZe0nUpHeosTMcDb9ES7F75ZiZI" target="_blank"><img src="image/sjava.jpg" class="card-img-top" alt="img"></a>
                      
                      <div class="card-body">
